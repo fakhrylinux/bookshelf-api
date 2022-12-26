@@ -7,7 +7,7 @@ const init = async () => {
     host: 'localhost',
     routes: {
       cors: {
-        origin: ['x'],
+        origin: ['*'],
       },
     },
   });
